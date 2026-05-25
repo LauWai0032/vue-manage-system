@@ -17,7 +17,7 @@
                     <transition name="move" mode="out-in">
                         <!-- 组件缓存，只缓存标签页名称列表中的组件 -->
                         <keep-alive :include="tabs.nameList">
-                            <!-- 动态渲染组件 -->
+                            
                             <component :is="Component"></component>
                         </keep-alive>
                     </transition>
