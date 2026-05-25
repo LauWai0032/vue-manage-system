@@ -41,13 +41,13 @@ export const menuData: Menus[] = [
         children: [
             {
                 id: '21',
-                pid: '3',
+                pid: '2',
                 index: '/form',
                 title: '表单',
             },
             {
                 id: '22',
-                pid: '3',
+                pid: '2',
                 index: '/upload',
                 title: '上传',
             },
@@ -89,7 +89,7 @@ export const menuData: Menus[] = [
             },
             {
                 id: '29',
-                pid: '3',
+                pid: '2',
                 index: '29',
                 title: '三级菜单',
                 children: [
